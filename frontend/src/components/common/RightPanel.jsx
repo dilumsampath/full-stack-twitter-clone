@@ -22,7 +22,7 @@ const RightPanel = () => {
           {!isLoading &&
             USERS_FOR_RIGHT_PANEL?.map((user) => (
               <Link
-                to={`/profile/${user.username}`}
+                to={`/profile/${user.userName}`}
                 className="flex items-center justify-between gap-4"
                 key={user._id}
               >
@@ -37,7 +37,7 @@ const RightPanel = () => {
                       {user.fullName}
                     </span>
                     <span className="text-sm text-slate-500">
-                      @{user.username}
+                      @{user.userName}
                     </span>
                   </div>
                 </div>

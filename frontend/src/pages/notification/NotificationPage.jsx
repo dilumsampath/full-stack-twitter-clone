@@ -12,7 +12,7 @@ const NotificationPage = () => {
       _id: "1",
       from: {
         _id: "1",
-        username: "johndoe",
+        userName: "johndoe",
         profileImg: "/avatars/boy2.png",
       },
       type: "follow",
@@ -21,7 +21,7 @@ const NotificationPage = () => {
       _id: "2",
       from: {
         _id: "2",
-        username: "janedoe",
+        userName: "janedoe",
         profileImg: "/avatars/girl1.png",
       },
       type: "like",
@@ -68,7 +68,7 @@ const NotificationPage = () => {
               {notification.type === "like" && (
                 <FaHeart className="w-7 h-7 text-red-500" />
               )}
-              <Link to={`/profile/${notification.from.username}`}>
+              <Link to={`/profile/${notification.from.userName}`}>
                 <div className="avatar">
                   <div className="w-8 rounded-full">
                     <img
@@ -81,7 +81,7 @@ const NotificationPage = () => {
                 </div>
                 <div className="flex gap-1">
                   <span className="font-bold">
-                    @{notification.from.username}
+                    @{notification.from.userName}
                   </span>{" "}
                   {notification.type === "follow"
                     ? "followed you"
