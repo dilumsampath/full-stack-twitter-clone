@@ -120,6 +120,7 @@ const CreatePost = () => {
         {isError && (
           <div className="text-red-500">
             {error.message || "Something went wrong"}
+            {/* {error.message} */}
           </div>
         )}
       </form>
