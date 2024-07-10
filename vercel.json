@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "frontend/index.html",
-      "use": "@vercel/static",
-      "baseDirectory": "frontend/dist"
+      "use": "@vercel/static"
     },
     {
       "src": "backend/server.js",
@@ -18,7 +17,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/frontend/index.html"
+      "destination": "/frontend/dist/index.html"
     }
   ]
 }
