@@ -28,7 +28,6 @@ const useFollow = () => {
     },
     onError: (error) => {
       toast.error(error.message);
-      console.log(error);
     },
   });
   return { follow, isPending };
