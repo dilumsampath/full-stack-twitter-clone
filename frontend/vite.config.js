@@ -8,8 +8,9 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
-        // target: "https://dilum-sampath-full-stack-twitter-clone.vercel.app",
+        // target: "http://localhost:5000",
+        target:
+          "https://dilum-sampath-full-stack-twitter-clone.vercel.app:5000",
         changeOrigin: true,
       },
     },
