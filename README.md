@@ -6,7 +6,7 @@ This project is a full-stack Twitter clone built using the MERN stack (MongoDB, 
 
 ## Video Demo
 
-![Demo](https://res.cloudinary.com/djtspieam/video/upload/Twitter-Clone-by-Dilum-Sampath_ttu6bb.mp4)
+[Watch the video](https://res.cloudinary.com/djtspieam/video/upload/v1721042792/Twitter-Clone-by-Dilum-Sampath_ttu6bb.mp4)
 
 ## Features
 
